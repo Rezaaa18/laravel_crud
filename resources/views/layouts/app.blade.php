@@ -43,8 +43,16 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('produk.index') }}">{{ __('Produk') }}</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('merek.index') }}">{{ __('Merek') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('barang.index') }}">{{ __('Barang') }}</a>
+                        </li>
                         @endguest
                     </ul>
+
+                    
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
